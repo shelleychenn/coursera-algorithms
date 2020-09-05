@@ -22,3 +22,15 @@ class QuickFind {
     return this.data[p] === this.data[q];
   }
 }
+
+/*
+
+algorithm: quick-find
+
+initialize: O(N)
+union: O(N)
+find(isConnected): O(1)
+
+defect: union is too expensive
+
+*/
