@@ -46,3 +46,16 @@ union: O(log N)
 find(isConnected): O(log N)
 
 */
+
+//
+// To improve: weighted quick union with path compression
+
+// root(n) {
+//   while (this.data[n] !== n) {
+//     this.data[n] = this.data[this.data[n]];
+//     n = this.data[n];
+//   }
+//   return n;
+// }
+
+// make each other node in path point to it's grandparents while traversing the tree, thereby halving path length
